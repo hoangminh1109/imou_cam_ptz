@@ -1,0 +1,11 @@
+{
+  "domain": "imou_cam_ptz",
+  "name": "Imou Camera PTZ",
+  "version": "0.1.0",
+  "documentation": "https://github.com/hoangminh1109/imou_cam_ptz",
+  "issue_tracker": "https://github.com/hoangminh1109/imou_cam_ptz/issues",
+  "requirements": [],
+  "codeowners": ["hoangminh1109","user2684"],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}
