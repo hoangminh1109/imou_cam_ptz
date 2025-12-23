@@ -4,7 +4,7 @@ import logging
 
 from homeassistant.helpers.entity import async_generate_entity_id
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
-from imouapi.exceptions import ImouException
+from .imouapi.exceptions import ImouException
 
 from .const import DOMAIN, SENSOR_ICONS
 
