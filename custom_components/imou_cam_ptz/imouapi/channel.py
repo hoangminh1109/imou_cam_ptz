@@ -298,7 +298,13 @@ class ImouCamChannel:
         await self.async_refresh_status()
 
         # update the status of all the sensors (if the device is online)
-        # TO BE IMPLEMENTED
+        if self.is_online():
+            for (
+                platform,  # pylint: disable=unused-variable
+                sensor_instances_array,
+            ) in self._sensor_instances.items():
+                for sensor_instance in sensor_instances_array:
+                    await sensor_instance.async_update()
 
         return True
 
