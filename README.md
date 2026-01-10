@@ -3,11 +3,11 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 
-**Imou Camera PTZ** (`imou_cam_ptz`) is a custom integration for Home Assistant. 
-
 **_This project is maintained in my free time. A coffee ☕ is always appreciated!_**
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hoangminh1109)
+
+**Imou Camera PTZ** (`imou_cam_ptz`) is a custom integration for Home Assistant. 
 
  This project is a remake and focused evolution of the original [imou_life](https://github.com/user2684/imou_life) integration. It enhances the original [imouapi](https://github.com/user2684/imouapi) python library to communicate with Imou devices.
 
